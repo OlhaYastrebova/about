@@ -3,30 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Room page</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Rooms</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
     <link
       rel="stylesheet"
-      href="/node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="./sass/index.css" />
   </head>
   <body>
-    <include src="./partials/header.html"></include>
     <main>
-      <include src="./partials/page-room/hero-room.html"></include>
-      <include src="./partials/page-room/amenities.html"></include>
+      <!--  -->
+      <include src="./partials/room_page/hero_header_room.html"></include>
+      <!--  -->
+      <include src="./partials/room_page/amenities.html"></include>
     </main>
-    <include src="./partials/footer.html"></include>
-    <script src="./js/vendors/swiper-bundle.min.js"></script>
-    <script type="module" src="./index.js"></script>
+    <!--  -->
+    <include src="./partials/shared/footer.html"></include>
+    <!--  -->
+    <include src="./partials/shared/modals/room_price_modal.html"></include>
+    <!--  -->
+    <include src="./partials/shared/modals/book_room_modal.html"></include>
+    <!--  -->
+    <include src="./partials/shared/scripts.html"></include>
   </body>
 </html>
-
-<a href="./hotel.html">hotel</a>
-<a href="./index.html">home</a>
-<a href="./restaurant.html">restaurant</a>
-<a href="./room.html">room</a>

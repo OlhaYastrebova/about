@@ -1,6 +1,7 @@
-import './js/slider.js';
-import './js/modal-hotel.js';
-import './js/modal-price';
+import './js/hero-slider';
+import './js/slick';
 import './js/modal-room';
-import './js/swiper';
-import './js/swiper-pages';
+import './js/modal-table';
+import './js/modal-price';
+import './js/imask';
+import './js/masked';
